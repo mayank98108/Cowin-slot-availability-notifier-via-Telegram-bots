@@ -29,6 +29,7 @@ To configure Kapacitor with Telegram, the following is needed:
 1. Paste the following link in your browser. Replace <API-access-token> with the API access token that you identified or created in the previous section:
 
 https://api.telegram.org/bot<API-access-token>/getUpdates?offset=0
+  
 2. Send a message to your bot in the Telegram application. The message text can be anything. Your chat history must include at least one message to get your chat ID.
 3. Refresh your browser.
 4. Identify the numerical chat ID by finding the id inside the chat JSON object. In the example below, the chat ID is 123456789.
